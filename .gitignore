@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables
+.env
+backend/.env
+
+# Uploaded images (local storage)
+backend/uploads/
+
+# React build
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java / Spring Boot
+*.class
+*.jar
+*.war
+target/
+crop-disease-ml/target/
+
+# IDE
+.vscode/
+.idea/
+
+# Zip archives
+*.zip
