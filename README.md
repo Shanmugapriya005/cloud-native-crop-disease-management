@@ -77,6 +77,4 @@ cd crop-disease-ml
 | Backend API | http://localhost:5001 |
 | ML Service | http://localhost:8080 |
 
-## 👩‍💻 Author
 
-**Shanmugapriya** — [GitHub](https://github.com/Shanmugapriya005)
