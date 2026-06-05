@@ -33,3 +33,10 @@ crop-disease-ml/target/
 
 # Zip archives
 *.zip
+
+# Dataset images (too large for GitHub)
+archive/
+crop-disease-ml/dataset/
+
+# Duplicate nested project folder
+Crop Disease Management/
