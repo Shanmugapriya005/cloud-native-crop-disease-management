@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crop-disease-backend
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: crop-disease-backend
+
+  template:
+    metadata:
+      labels:
+        app: crop-disease-backend
+
+    spec:
+      containers:
+      - name: crop-disease-backend
+        image: shanmugapri/cloudnativeapp:v2
+
+        ports:
+        - containerPort: 5001
+
+        env:
+        - name: PORT
+          value: "5001"
+
+        - name: MONGO_URI
+          value: "mongodb://12sha46_db_user:Priya123@ac-jjiol7o-shard-00-00.cr13hdl.mongodb.net:27017,ac-jjiol7o-shard-00-01.cr13hdl.mongodb.net:27017,ac-jjiol7o-shard-00-02.cr13hdl.mongodb.net:27017/?ssl=true&replicaSet=atlas-pv8mnb-shard-0&authSource=admin&appName=Cluster0"
+
+        - name: JWT_SECRET
+          value: "YOUR_JWT_SECRET"
+
+        - name: CLOUDINARY_NAME
+          value: "dz3peihu2"
+
+        - name: CLOUDINARY_API_KEY
+          value: "198937967476985"
+
+        - name: CLOUDINARY_API_SECRET
+          value: "YOUR_CLOUDINARY_API_SECRET"
+
+---
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: crop-disease-backend-service
+
+spec:
+  type: NodePort
+
+  selector:
+    app: crop-disease-backend
+
+  ports:
+  - port: 5001
+    targetPort: 5001
+    nodePort: 30001
