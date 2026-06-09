@@ -40,3 +40,8 @@ crop-disease-ml/dataset/
 
 # Duplicate nested project folder
 Crop Disease Management/
+
+
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
