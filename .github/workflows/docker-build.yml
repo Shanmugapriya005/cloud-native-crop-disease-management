@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Build and Deploy
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-push:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,8 +21,11 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t shanmugapri/cloudnativeapp:latest ./backend
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/cloudnativeapp:latest ./backend
 
       - name: Push Docker Image
         run: |
-          docker push shanmugapri/cloudnativeapp:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/cloudnativeapp:latest
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@
