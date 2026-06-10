@@ -34,12 +34,12 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/cloudnativeapp:latest
+            sudo docker pull ${{ secrets.DOCKERHUB_USERNAME }}/cloudnativeapp:latest
 
-            docker stop crop-disease-app || true
-            docker rm crop-disease-app || true
+            sudo docker stop crop-disease-app || true
+            sudo docker rm crop-disease-app || true
 
-            docker run -d \
+            sudo docker run -d \
               --name crop-disease-app \
               -p 5001:5001 \
               -e MONGO_URI="${{ secrets.MONGO_URI }}" \
