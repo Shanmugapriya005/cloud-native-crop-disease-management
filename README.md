@@ -200,11 +200,11 @@ Visualizes:
 
 ## Login Page
 
-![Login Page](screenshots/login-page.png)
+
 
 ## User Dashboard
 
-![User Dashboard](screenshots/user-dashboard.png)
+
 
 ## Upload Crop Image
 
@@ -217,19 +217,8 @@ Visualizes:
 
 ## Admin Dashboard
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+<img width="1360" height="675" alt="image" src="https://github.com/user-attachments/assets/2604ae1b-0a7c-4f30-a77a-ff0020833b08" />
 
-## MongoDB Atlas
-
-![MongoDB](screenshots/mongodb-atlas.png)
-
-## Cloudinary Dashboard
-
-![Cloudinary](screenshots/cloudinary-dashboard.png)
-
-## Docker Containers
-
-![Docker](screenshots/docker-containers.png)
 
 ## AWS EC2
 
