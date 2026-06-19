@@ -222,7 +222,7 @@ Visualizes:
 
 ## AWS EC2
 
-![EC2](screenshots/ec2-instance.png)
+<img width="1365" height="670" alt="Image" src="https://github.com/user-attachments/assets/b73c3f2d-297c-4334-a0e2-d5fb54aae7be" />
 
 ## Prometheus Dashboard
 
