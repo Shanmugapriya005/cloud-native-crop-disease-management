@@ -219,6 +219,9 @@ Visualizes:
 
 <img width="1360" height="675" alt="image" src="https://github.com/user-attachments/assets/2604ae1b-0a7c-4f30-a77a-ff0020833b08" />
 
+## MongoDB Atlas Database
+
+<img width="1365" height="680" alt="Image" src="https://github.com/user-attachments/assets/86330216-409f-43c2-bea3-354333205b63" />
 
 ## AWS EC2
 
@@ -227,6 +230,11 @@ Visualizes:
 ## Prometheus Dashboard
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/669d6730-88c8-465f-90a1-a41fc1ac863f" />
+
+
+## Grafana Service
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/821ae9ad-8b20-43ea-82d7-97765837b62d" />
 
 ## Grafana Dashboard
 
@@ -251,6 +259,43 @@ Visualizes:
 * CI/CD using GitHub Actions
 
 ---
+
+---
+
+# 🎥 Project Demo
+
+## Live Application
+
+The application is deployed on AWS EC2 and served through Nginx.
+
+**URL**
+
+http://100.31.52.224
+
+<img width="1365" height="681" alt="Image" src="https://github.com/user-attachments/assets/323a77d6-d060-4a49-9421-d8db8af762c9" />
+---
+
+## System Architecture
+
+```text
+                Users
+                   │
+                   ▼
+          React Frontend (Nginx)
+                   │
+                   ▼
+        Node.js Backend (Docker)
+                   │
+       ┌───────────┴───────────┐
+       ▼                       ▼
+ MongoDB Atlas            Cloudinary
+       │
+       ▼
+ Prometheus + Grafana
+       │
+       ▼
+      AWS EC2
+
 
 # 👩‍💻 Author
 
