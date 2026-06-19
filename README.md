@@ -200,20 +200,20 @@ Visualizes:
 
 ## Login Page
 
-<img width="1365" height="629" alt="Image" src="https://github.com/user-attachments/assets/fd993e20-397f-4c70-bb15-f846772d5fd5" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/3ccb4468-71df-4885-a587-fd332ae96648" />
 
 ## User Dashboard
 
-<img width="1365" height="674" alt="Image" src="https://github.com/user-attachments/assets/fe39becb-efc4-4689-bb71-99907c07916a" />
+<img width="1365" height="629" alt="Image" src="https://github.com/user-attachments/assets/fd993e20-397f-4c70-bb15-f846772d5fd5" />
+
 
 ## Upload Crop Image
 
-<img width="1364" height="603" alt="Image" src="https://github.com/user-attachments/assets/ced6089a-29ea-4bb7-8e70-c19c9130dc4f" />
+<img width="1365" height="674" alt="Image" src="https://github.com/user-attachments/assets/fe39becb-efc4-4689-bb71-99907c07916a" />
 
 ## Prediction Result
 
-
-<img width="1365" height="671" alt="Image" src="https://github.com/user-attachments/assets/3bdcd483-bdf6-4223-843a-a3338f22a796" />
+<img width="1364" height="603" alt="Image" src="https://github.com/user-attachments/assets/ced6089a-29ea-4bb7-8e70-c19c9130dc4f" />
 
 ## Admin Dashboard
 
