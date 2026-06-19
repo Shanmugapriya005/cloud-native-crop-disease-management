@@ -226,11 +226,19 @@ Visualizes:
 
 ## Prometheus Dashboard
 
-![Prometheus](screenshots/prometheus-dashboard.png)
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/669d6730-88c8-465f-90a1-a41fc1ac863f" />
 
 ## Grafana Dashboard
 
-![Grafana](screenshots/grafana-dashboard.png)
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4e69dcbc-34a9-49dc-8a84-9a8ece9b2be4" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/977ee843-777b-4e9b-83b9-e32b461455a5" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/fcc62c97-837a-40d3-be98-f4313fd8e08f" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/24dd0b87-0a8c-49cb-bf5d-c3f97474171f" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/ac6f1a33-d24a-440a-9f75-58dbbf6a410a" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/1d47e8d1-55be-48ce-98cd-7f339fd6d8c0" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7915d4f4-a9d3-496c-848c-3320f2fce784" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/73fd7172-f630-4f68-b84a-1980103d199e" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/8c1ab634-dda3-490a-aaea-2ea2bb3cea76" />
 
 ---
 
